@@ -1,6 +1,14 @@
-h1,h2,p{
+h1,h2{
     text-align: center;
   }
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 20px;
+}
 
 .seals{
     max-width: 600px;
@@ -11,14 +19,27 @@ h1,h2,p{
     
 }
 body{
+    font-family: sans-serif, seruf;
     border-radius: 0%;
     background-image:url(https://cdn.discordapp.com/attachments/1208696173070786571/1314474790089785375/Screenshot_2024-12-06_at_19-12-55_Pretty_seals_seamless_pattern_marine_Royalty_Free_Vector.png?ex=6753e78b&is=6752960b&hm=31e6732c38127e0dbb682eb0f31122cc7c8515dc1b4871c1ff04968587a59c6d&) ;
 }
 
-.pics{
+/*.pics{
+    max-width: 600px;
     width: 70%;
     background-color: rgb(223, 240, 239);
     margin: auto;
     border-radius: 5px;
     margin-top: -16px;
+}
+    */
+
+.footer{
+    margin-top: 1000px;
+    max-width: 600px;
+    width: 70%;
+    background-color: rgb(223, 240, 239);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
