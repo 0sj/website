@@ -3,6 +3,7 @@ h1,h2,p{
   }
 
 .seals{
+    max-width: 600px;
     width: 70%;
     background-color: rgb(30, 219, 210);
     margin: auto;
