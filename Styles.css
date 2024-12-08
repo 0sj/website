@@ -1,7 +1,36 @@
-.titlebar h3 :not(img){
+/*.container h3 :not(img){
     display: inline-block;
     margin-left: 120px;
+    
+}
+a{
+    color: black;
+}
+a:visited{
+    color: var(--t-darkgorp);
+}
+a:hover{
+    color:var(--t-gorp);
 }
 .title{
     margin-left: 120px;
+}
+.container img{
+    position: relative;
+    top: -280px;
+}
+
+body{
+    background: url(images/hillhousepink.png);
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    --t-blue: #4fa5c2;
+    --t-pink: #f587ac;
+    --t-white: #f9fbfc;
+    --t-gorp: #e2b8c6;
+    --t-darkgorp: #e4497d;
+
 }
